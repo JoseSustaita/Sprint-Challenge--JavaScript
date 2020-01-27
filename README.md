@@ -30,13 +30,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach lets you read through an array and .map allows you to create a new one. 
+
 2. What is the difference between a function and a method?
 
+    A method is within a function and is inside an object or class. 
+
 3. What is closure?
+    Closure allows you to use an outter function scope from within an inner fuction. 
 
 4. Describe the four rules of the 'this' keyword.
+The four rules of the this keyword are default binding, implicit binding, explicit binding, and new binding. Default binding is when the function is in the global scope. If the object is called with a preceding dot then that is implicit binding. If you use the call method then that is explicit binding. If you use a constructor then that is a new binding. 
 
 5. Why do we need super() in an extended class?
+    The super() allows us to call functions on a parent class. 
 
 ## Project Set up
 
