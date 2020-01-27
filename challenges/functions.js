@@ -37,7 +37,7 @@ function greeting(first_name, last_name) {
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation:  Because the function is in the same scope. External is the parent and internal is the child. The child can grab attributes from the parent. 
 
 
 const external = "I'm outside the function";
